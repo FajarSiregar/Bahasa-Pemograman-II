@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_bilangan1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bilangan pertama"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/et_bilangan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bilangan kedua"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/btn_tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Tambah"/>
+
+    <Button
+        android:id="@+id/btn_kurang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="Kurang"/>
+
+    <Button
+        android:id="@+id/btn_kali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="Kali"/>
+
+    <Button
+        android:id="@+id/btn_bagi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="Bagi"/>
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="30pt"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
